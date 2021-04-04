@@ -1,0 +1,267 @@
+# Site
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Wonhyuk Jang
+title: MS in Compute Science, AI Scientist
+email: wonhyuk12@gmail.com
+# email_title: Email (Email title override)
+# phone: Your phone number (optional)
+# phone_title: Phone (Phone title override)
+# website: Your website (eg. https://google.com)(optional)
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: jekyllrb
+github_username:  wonhyukjang
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: wonhyuk12
+linkedin_username: wonhyuk-jang-44a941b4
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+
+# additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  My name is Wonhyuk Jang. I'm a master's student at USC and work as a NLP Scientist at startup company, ReviewMind, in South Korea. My interest is in <mark>Natural Language Processing</mark>, <mark>Computer Vision</mark> and various AI, data science oriented projects. I am actively seeking for a <mark>full-time</mark> position in <mark>AI/Data Science.</mark>
+
+# You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+#   - Lists
+#   - Tables
+#   - <a href="google.com">Links</a>
+#   - Images ![alt text](/images/landscape-trees.jpg "Trees")
+
+content:
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: Review Mind 
+        link: https://reviewmind.modoo.at/
+        sub_title: NLP Scientist
+        caption: November 2020 - Present
+        description: | # this will include new lines to allow paragraphs
+          - Developed various web crawling modules in Python with BeautifulSoup, Selenium, and web request.
+          - Sentiment Analysis on Amazon review specific to fashion domain and fine-tuned RoBERTa (Accuracy: 90%).
+          - Developed spam filtering models that screen non-english, not meaningful reviews with RoBERTa (Accuracy: 95%). 
+          - Extracted corpus of which best represents aspects (size, price, etc) in fashion domain using fastText, conducted post training on top of BERT architecture with Amazon reviews and implemented Aspect Based Sentiment Analysis (Accuracy: 82%)
+      - layout: left
+        title: LG Corporation 
+        link: https://uplus.co.kr/com/main/pemain/<br>PeMain.hpi?WEB_BNNR_ID=5G_CLO_01
+        sub_title: AI Researcher
+        caption: July 2020 - August 2020
+        description: | # this will include new lines to allow paragraphs
+          - Built a data generation module that extracts customer counseling dialogue from log files.
+          - Implemented base-line LSTM, CNN classifiers that classify clients according to Voice of Customer.
+          - Improved classification performance by applying fastText on LSTM, CNN models and fine-tuned KoBERT, Google BERT models to find VoC (Accuracy: 70%)
+      - layout: left
+        title: AI Lab, San Diego State University
+        link: https://business.sdsu.edu/students/ai
+        sub_title: Research Assistant
+        caption: March 2016 - May 2017
+        description: | # this will include new lines to allow paragraph
+          - Developed Twitter crawler and ORM layer using SQLAlchemy to store the data into MySQL database (2 milions tweets)
+          - Implemented a spam detection script with rule based model to remove noise and elaborated lexicons that well represent brand sentiment using Word2Vec, fastText and Glove.
+          - Sentiment analysis with lexicon-based (PMI) method, and Neural Network that classifies brand sentiment.
+
+# - layout: left
+#   company: AI / Data Science (ML)
+#   description: | # this will include new lines to allow paragraphs
+#     - <a href="https://developer.amazon.com/alexaprize">Alexa Prize Socialbot Grand Challenge</a><br>
+#       (Designed and developed a web crawler for Sports domain that save data into Knowledge Graph, and
+#       implemented Finite State Machine that can talk about sports domain by querying in Knowledge Graph)
+#     - <a href="https://deepnewworld.github.io/csci566-project/#/home">Lyft Motion Prediction</a><br>
+#       (Implemented Seq to Seq model and developed GAN layer to generate next 50 positions of AV in PyTorch)
+#     - <a href="https://github.com/wonhyukjang/Halma">Halma Agent</a><br>
+#       (Built Halma Agent to play game with alpha-beta pruning)
+#     - <a href="https://github.com/wonhyukjang/Machine-Learning-Algorithm">Machine Learning Algorithm from scratch</a><br>
+#       (Decision Tree, Naive Bayes, KNN, Neural Network, Convolutional Neural Network, Auto-Encoder, K-Mean, Word2Vec)      
+#     - <a href="https://github.com/wonhyukjang/Face-Recognition">Face Recognition</a><br>
+#        (Face recognition with ANN and CNN in Tensorflow using OpenCV)
+#     - <a href="https://github.com/wonhyukjang/Movie-Recommendation">Movie Recommendation Program</a><br>
+#       (Recommend Movie based on user's interest)      
+
+
+# - layout: left
+#   company: Kaggle Competition
+#   description: | # this will include new lines to allow paragraphs
+#     - <a href="https://github.com/wonhyukjang/Tweet-Sentiment-Extraction">Tweet Sentiment Extraction</a><br>
+#       (Extract sentiment context from Tweet using RoBERTA)
+# - layout: left
+#   company: Algorithm (Leetcode)
+#   description: | # this will include new lines to allow paragraphs
+#     - <a href="https://github.com/wonhyukjang/Leetcode">Leetcode Solution</a><br>
+#       (Array, Linked-List, Stack, Tree, Hashtable, Divide & Conquer, Dynamic Programming, etc...)
+# - layout: left
+#   company: Web Development
+#   description: | # this will include new lines to allow paragraphs
+#     - <a href="https://github.com/wonhyukjang/-News-app-React">News App (React)</a><br>
+#       (Responsive, interactive Web Application to read news from Guardian, New York Times)
+#     - <a href="https://github.com/wonhyukjang/News-app-Flask">News App (Flask)</a><br>
+#       (Interactive Web Application to read news from CNN, Fox news)
+# - layout: left
+#   title: Android Development
+#   description: | # this will include new lines to allow paragraphs
+#     - <a href="https://github.com/wonhyukjang/News-app-Android">News App</a><br>
+#       (Interactive Android app to read Guardians news and check news trend)
+#     - Movie Ranking App
+#     - Snap Chat Clone
+#     - Note App
+#     - Hiker's Watch
+# - layout: left
+#   company: AI / Data Science (ML)
+#   description: | # this will include new lines to allow paragraphs
+#     - <a href="https://developer.amazon.com/alexaprize">Alexa Prize Socialbot Grand Challenge</a><br>
+#       (Designed and developed a web crawler for Sports domain that save data into Knowledge Graph, and
+#       implemented Finite State Machine that can talk about sports domain by querying in Knowledge Graph)
+#     - <a href="https://deepnewworld.github.io/csci566-project/#/home">Lyft Motion Prediction</a><br>
+#       (Implemented Seq to Seq model and developed GAN layer to generate next 50 positions of AV in PyTorch)
+#     - <a href="https://github.com/wonhyukjang/Halma">Halma Agent</a><br>
+#       (Built Halma Agent to play game with alpha-beta pruning)
+#     - <a href="https://github.com/wonhyukjang/Machine-Learning-Algorithm">Machine Learning Algorithm from scratch</a><br>
+#       (Decision Tree, Naive Bayes, KNN, Neural Network, Convolutional Neural Network, Auto-Encoder, K-Mean, Word2Vec)      
+#     - <a href="https://github.com/wonhyukjang/Face-Recognition">Face Recognition</a><br>
+#        (Face recognition with ANN and CNN in Tensorflow using OpenCV)
+#     - <a href="https://github.com/wonhyukjang/Movie-Recommendation">Movie Recommendation Program</a><br>
+#       (Recommend Movie based on user's interest)   
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Alexa Prize Socialbot Grand Challenge
+        link: https://developer.amazon.com/alexaprize
+        link_text: Alexa Prize Challenge
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        # quote: >
+        #   Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+          - Designed and developed a web crawler for Sports domain that save data into Knowledge Graph
+          - Implemented Finite State Machine that can talk about sports domain by querying in Knowledge Graph    
+      - layout: left
+        title: Lyft Motion Prediction
+        link: https://deepnewworld.github.io/csci566-project/#/home
+        link_text: Lyft 3D Object Detection for Autonomous Vehicles
+        description: | # this will include new lines to allow paragraphs
+          - Implemented Seq to Seq model and developed GAN layer to generate next 50 positions of AV in PyTorch
+
+      - layout: left
+        title: Tweet Sentiment Extraction
+        link:  https://github.com/wonhyukjang/Tweet-Sentiment-Extraction/blob/master/RoBERT%20Stemming.ipynb
+        link_text: Tweet Sentiment Extraction
+        description: | # this will include new lines to allow paragraphs
+          - Performed data augmentation by replacing word to their synonyms according to their POS and fine tuned RoBERTa to extract phrase that express user's sentiment in tweets
+
+      - layout: left
+        title: ML /DL from scratch
+        link: https://github.com/wonhyukjang/Machine-Learning-Algorithm
+        link_text: Implementation of ML / DL library from scratch
+        description: | # this will include new lines to allow paragraphs
+          - Implemented Neural Network, RNN, LSTM, GAN, VAE, RL, Decision Tree, Naive Bayes, KNN, Neural Network, Convolutional Neural Network, Auto-Encoder, K-Mean, Word2Vec from scratch with Python.
+
+      - layout: left
+        title: Halma Agent
+        link: https://github.com/wonhyukjang/Halma
+        link_text: Implementation of agent that plays Halma game
+        description: | # this will include new lines to allow paragraphs
+          - Implemented Halma playing agent using Min-Max, alpha-beta pruning algorithm and heuristic function.
+
+      - layout: left
+        title: Algorithm (Leetcode)
+        link:  https://github.com/wonhyukjang/Leetcode
+        link_text: Leetcode Solution
+        description: | # this will include new lines to allow paragraphs
+          - Array, Linked-List, Stack, Tree, Hashtable, Divide & Conquer, Dynamic Programming, etc...
+          
+  - title: Education
+    layout: list
+    content:
+      - layout: top-middle
+        title: University of Southern California
+        sub_title: M.S. in Computer Science
+        caption: 2019 - Present
+        quote: >
+          Course: Analysis of Algorithms, Foundations of AI, Database Systems, Web Technologies, Scientific Computing and Visualization, Deep Learning and its Applications, Machine Learning
+        # description: | # this will include new lines to allow paragraphs
+        #   Description of qualification
+      - layout: top-middle
+        title: San Diego State University
+        sub_title: B.S. in Computer Science and Minor in Statistics
+        caption: 2012 - 2017
+        quote: >
+          Course: Data Structures, Programming Languages, Computer Archetecture, Systems Programming, Algorithms & Analysis, Database Techniques, Computational Linguistics, Operating Systems, Python Scripting, R Programming & Data Science, Machine Learning
+        # description: | # this will include new lines to allow paragraphs
+        #   Description of qualification
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in data science and software engineering some of my other interests and hobbies are:
+        <li> Cooking </li>
+        <li> Traveling </li>
+        <li> Movies </li>
+
+# Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
