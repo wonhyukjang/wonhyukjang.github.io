@@ -231,10 +231,10 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in data science and software engineering some of my other interests and hobbies are:
-        <li> Cooking </li>
-        <li> Traveling </li>
-        <li> Movies </li>
+      Alongside my interests in data science and software engineering some of my other interests and hobbies are:        
+      - Cooking
+      - Traveling 
+      - Movies / Musics
 
 # Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
