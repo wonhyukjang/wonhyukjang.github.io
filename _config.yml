@@ -20,7 +20,7 @@ darkmode: false
 
 # Social links
 # twitter_username: jekyllrb
-github_username:  wonhyukjang
+github_username: wonhyukjang
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -66,7 +66,18 @@ content:
     layout: list
     content:
       - layout: left
-        title: Review Mind 
+        title: Review Mind
+        link: https://reviewmind.modoo.at/
+        sub_title: NLP Scientist
+        caption: November 2020 - Present
+        description: | # this will include new lines to allow paragraphs
+          - Developed various web crawling modules in Python with BeautifulSoup, Selenium, and web request.
+          - Sentiment Analysis on Amazon review specific to fashion domain and fine-tuned RoBERTa (Accuracy: 90%).
+          - Developed spam filtering models that screen non-english, not meaningful reviews with RoBERTa (Accuracy: 95%). 
+          - Extracted corpus of which best represents aspects (size, price, etc) in fashion domain using fastText, conducted post training on top of BERT architecture with Amazon reviews and implemented Aspect Based Sentiment Analysis (Accuracy: 82%)
+
+      - layout: left
+        title: Review Mind
         link: https://reviewmind.modoo.at/
         sub_title: NLP Scientist
         caption: November 2020 - Present
@@ -76,7 +87,7 @@ content:
           - Developed spam filtering models that screen non-english, not meaningful reviews with RoBERTa (Accuracy: 95%). 
           - Extracted corpus of which best represents aspects (size, price, etc) in fashion domain using fastText, conducted post training on top of BERT architecture with Amazon reviews and implemented Aspect Based Sentiment Analysis (Accuracy: 82%)
       - layout: left
-        title: LG Corporation 
+        title: LG Corporation
         link: https://uplus.co.kr/com/main/pemain/<br>PeMain.hpi?WEB_BNNR_ID=5G_CLO_01
         sub_title: AI Researcher
         caption: July 2020 - August 2020
@@ -94,66 +105,65 @@ content:
           - Implemented a spam detection script with rule based model to remove noise and elaborated lexicons that well represent brand sentiment using Word2Vec, fastText and Glove.
           - Sentiment analysis with lexicon-based (PMI) method, and Neural Network that classifies brand sentiment.
 
-# - layout: left
-#   company: AI / Data Science (ML)
-#   description: | # this will include new lines to allow paragraphs
-#     - <a href="https://developer.amazon.com/alexaprize">Alexa Prize Socialbot Grand Challenge</a><br>
-#       (Designed and developed a web crawler for Sports domain that save data into Knowledge Graph, and
-#       implemented Finite State Machine that can talk about sports domain by querying in Knowledge Graph)
-#     - <a href="https://deepnewworld.github.io/csci566-project/#/home">Lyft Motion Prediction</a><br>
-#       (Implemented Seq to Seq model and developed GAN layer to generate next 50 positions of AV in PyTorch)
-#     - <a href="https://github.com/wonhyukjang/Halma">Halma Agent</a><br>
-#       (Built Halma Agent to play game with alpha-beta pruning)
-#     - <a href="https://github.com/wonhyukjang/Machine-Learning-Algorithm">Machine Learning Algorithm from scratch</a><br>
-#       (Decision Tree, Naive Bayes, KNN, Neural Network, Convolutional Neural Network, Auto-Encoder, K-Mean, Word2Vec)      
-#     - <a href="https://github.com/wonhyukjang/Face-Recognition">Face Recognition</a><br>
-#        (Face recognition with ANN and CNN in Tensorflow using OpenCV)
-#     - <a href="https://github.com/wonhyukjang/Movie-Recommendation">Movie Recommendation Program</a><br>
-#       (Recommend Movie based on user's interest)      
+  # - layout: left
+  #   company: AI / Data Science (ML)
+  #   description: | # this will include new lines to allow paragraphs
+  #     - <a href="https://developer.amazon.com/alexaprize">Alexa Prize Socialbot Grand Challenge</a><br>
+  #       (Designed and developed a web crawler for Sports domain that save data into Knowledge Graph, and
+  #       implemented Finite State Machine that can talk about sports domain by querying in Knowledge Graph)
+  #     - <a href="https://deepnewworld.github.io/csci566-project/#/home">Lyft Motion Prediction</a><br>
+  #       (Implemented Seq to Seq model and developed GAN layer to generate next 50 positions of AV in PyTorch)
+  #     - <a href="https://github.com/wonhyukjang/Halma">Halma Agent</a><br>
+  #       (Built Halma Agent to play game with alpha-beta pruning)
+  #     - <a href="https://github.com/wonhyukjang/Machine-Learning-Algorithm">Machine Learning Algorithm from scratch</a><br>
+  #       (Decision Tree, Naive Bayes, KNN, Neural Network, Convolutional Neural Network, Auto-Encoder, K-Mean, Word2Vec)
+  #     - <a href="https://github.com/wonhyukjang/Face-Recognition">Face Recognition</a><br>
+  #        (Face recognition with ANN and CNN in Tensorflow using OpenCV)
+  #     - <a href="https://github.com/wonhyukjang/Movie-Recommendation">Movie Recommendation Program</a><br>
+  #       (Recommend Movie based on user's interest)
 
-
-# - layout: left
-#   company: Kaggle Competition
-#   description: | # this will include new lines to allow paragraphs
-#     - <a href="https://github.com/wonhyukjang/Tweet-Sentiment-Extraction">Tweet Sentiment Extraction</a><br>
-#       (Extract sentiment context from Tweet using RoBERTA)
-# - layout: left
-#   company: Algorithm (Leetcode)
-#   description: | # this will include new lines to allow paragraphs
-#     - <a href="https://github.com/wonhyukjang/Leetcode">Leetcode Solution</a><br>
-#       (Array, Linked-List, Stack, Tree, Hashtable, Divide & Conquer, Dynamic Programming, etc...)
-# - layout: left
-#   company: Web Development
-#   description: | # this will include new lines to allow paragraphs
-#     - <a href="https://github.com/wonhyukjang/-News-app-React">News App (React)</a><br>
-#       (Responsive, interactive Web Application to read news from Guardian, New York Times)
-#     - <a href="https://github.com/wonhyukjang/News-app-Flask">News App (Flask)</a><br>
-#       (Interactive Web Application to read news from CNN, Fox news)
-# - layout: left
-#   title: Android Development
-#   description: | # this will include new lines to allow paragraphs
-#     - <a href="https://github.com/wonhyukjang/News-app-Android">News App</a><br>
-#       (Interactive Android app to read Guardians news and check news trend)
-#     - Movie Ranking App
-#     - Snap Chat Clone
-#     - Note App
-#     - Hiker's Watch
-# - layout: left
-#   company: AI / Data Science (ML)
-#   description: | # this will include new lines to allow paragraphs
-#     - <a href="https://developer.amazon.com/alexaprize">Alexa Prize Socialbot Grand Challenge</a><br>
-#       (Designed and developed a web crawler for Sports domain that save data into Knowledge Graph, and
-#       implemented Finite State Machine that can talk about sports domain by querying in Knowledge Graph)
-#     - <a href="https://deepnewworld.github.io/csci566-project/#/home">Lyft Motion Prediction</a><br>
-#       (Implemented Seq to Seq model and developed GAN layer to generate next 50 positions of AV in PyTorch)
-#     - <a href="https://github.com/wonhyukjang/Halma">Halma Agent</a><br>
-#       (Built Halma Agent to play game with alpha-beta pruning)
-#     - <a href="https://github.com/wonhyukjang/Machine-Learning-Algorithm">Machine Learning Algorithm from scratch</a><br>
-#       (Decision Tree, Naive Bayes, KNN, Neural Network, Convolutional Neural Network, Auto-Encoder, K-Mean, Word2Vec)      
-#     - <a href="https://github.com/wonhyukjang/Face-Recognition">Face Recognition</a><br>
-#        (Face recognition with ANN and CNN in Tensorflow using OpenCV)
-#     - <a href="https://github.com/wonhyukjang/Movie-Recommendation">Movie Recommendation Program</a><br>
-#       (Recommend Movie based on user's interest)   
+  # - layout: left
+  #   company: Kaggle Competition
+  #   description: | # this will include new lines to allow paragraphs
+  #     - <a href="https://github.com/wonhyukjang/Tweet-Sentiment-Extraction">Tweet Sentiment Extraction</a><br>
+  #       (Extract sentiment context from Tweet using RoBERTA)
+  # - layout: left
+  #   company: Algorithm (Leetcode)
+  #   description: | # this will include new lines to allow paragraphs
+  #     - <a href="https://github.com/wonhyukjang/Leetcode">Leetcode Solution</a><br>
+  #       (Array, Linked-List, Stack, Tree, Hashtable, Divide & Conquer, Dynamic Programming, etc...)
+  # - layout: left
+  #   company: Web Development
+  #   description: | # this will include new lines to allow paragraphs
+  #     - <a href="https://github.com/wonhyukjang/-News-app-React">News App (React)</a><br>
+  #       (Responsive, interactive Web Application to read news from Guardian, New York Times)
+  #     - <a href="https://github.com/wonhyukjang/News-app-Flask">News App (Flask)</a><br>
+  #       (Interactive Web Application to read news from CNN, Fox news)
+  # - layout: left
+  #   title: Android Development
+  #   description: | # this will include new lines to allow paragraphs
+  #     - <a href="https://github.com/wonhyukjang/News-app-Android">News App</a><br>
+  #       (Interactive Android app to read Guardians news and check news trend)
+  #     - Movie Ranking App
+  #     - Snap Chat Clone
+  #     - Note App
+  #     - Hiker's Watch
+  # - layout: left
+  #   company: AI / Data Science (ML)
+  #   description: | # this will include new lines to allow paragraphs
+  #     - <a href="https://developer.amazon.com/alexaprize">Alexa Prize Socialbot Grand Challenge</a><br>
+  #       (Designed and developed a web crawler for Sports domain that save data into Knowledge Graph, and
+  #       implemented Finite State Machine that can talk about sports domain by querying in Knowledge Graph)
+  #     - <a href="https://deepnewworld.github.io/csci566-project/#/home">Lyft Motion Prediction</a><br>
+  #       (Implemented Seq to Seq model and developed GAN layer to generate next 50 positions of AV in PyTorch)
+  #     - <a href="https://github.com/wonhyukjang/Halma">Halma Agent</a><br>
+  #       (Built Halma Agent to play game with alpha-beta pruning)
+  #     - <a href="https://github.com/wonhyukjang/Machine-Learning-Algorithm">Machine Learning Algorithm from scratch</a><br>
+  #       (Decision Tree, Naive Bayes, KNN, Neural Network, Convolutional Neural Network, Auto-Encoder, K-Mean, Word2Vec)
+  #     - <a href="https://github.com/wonhyukjang/Face-Recognition">Face Recognition</a><br>
+  #        (Face recognition with ANN and CNN in Tensorflow using OpenCV)
+  #     - <a href="https://github.com/wonhyukjang/Movie-Recommendation">Movie Recommendation Program</a><br>
+  #       (Recommend Movie based on user's interest)
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -172,7 +182,7 @@ content:
         #   Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
           - Designed and developed a web crawler for Sports domain that save data into Knowledge Graph
-          - Implemented Finite State Machine that can talk about sports domain by querying in Knowledge Graph    
+          - Implemented Finite State Machine that can talk about sports domain by querying in Knowledge Graph
       - layout: left
         title: Lyft Motion Prediction
         link: https://deepnewworld.github.io/csci566-project/#/home
@@ -182,7 +192,7 @@ content:
 
       - layout: left
         title: Tweet Sentiment Extraction
-        link:  https://github.com/wonhyukjang/Tweet-Sentiment-Extraction/blob/master/RoBERT%20Stemming.ipynb
+        link: https://github.com/wonhyukjang/Tweet-Sentiment-Extraction/blob/master/RoBERT%20Stemming.ipynb
         link_text: Tweet Sentiment Extraction
         description: | # this will include new lines to allow paragraphs
           - Performed data augmentation by replacing word to their synonyms according to their POS and fine tuned RoBERTa to extract phrase that express user's sentiment in tweets
@@ -203,11 +213,11 @@ content:
 
       - layout: left
         title: Algorithm (Leetcode)
-        link:  https://github.com/wonhyukjang/Leetcode
+        link: https://github.com/wonhyukjang/Leetcode
         link_text: Leetcode Solution
         description: | # this will include new lines to allow paragraphs
           - Array, Linked-List, Stack, Tree, Hashtable, Divide & Conquer, Dynamic Programming, etc...
-          
+
   - title: Education
     layout: list
     content:
@@ -251,17 +261,18 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
 
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
+exclude:
+  [
+    "Gemfile",
+    "Gemfile.lock",
+    "node_modules",
+    "vendor/bundle/",
+    "vendor/cache/",
+    "vendor/gems/",
+    "vendor/ruby/",
+    "lib/",
+    "scripts/",
+    "docker-compose.yml",
   ]
