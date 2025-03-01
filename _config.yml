@@ -53,7 +53,7 @@ linkedin_username: wonhyuk-jang-44a941b4
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  My name is Wonhyuk Jang. I'm a master's student at USC and work as a NLP Scientist at startup company, ReviewMind, in South Korea. My interest is in <mark>Natural Language Processing</mark>, <mark>Computer Vision</mark> and various AI, data science oriented projects. I am actively seeking for a <mark>full-time</mark> position in <mark>AI/Data Science.</mark>
+  My name is Wonhyuk Jang. I’m an AI Scientist at LG Electronics, in South Korea. My interest is in <mark>Large Language Model (LLM)</mark>, <mark>Multimodality</mark> and various AI, data science oriented projects. I am actively seeking for a <mark>full-time</mark> position in <mark>AI/Data Science.</mark>
 
 # You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
 #   - Lists
@@ -66,21 +66,20 @@ content:
     layout: list
     content:
       - layout: left
-        title: Review Mind
-        link: https://reviewmind.modoo.at/
-        sub_title: NLP Scientist
-        caption: November 2020 - Present
+        title: LG Electronics
+        link: https://www.lg.com/global/
+        sub_title: AI Scientist
+        caption: August 2021 - Present
         description: | # this will include new lines to allow paragraphs
-          - Developed various web crawling modules in Python with BeautifulSoup, Selenium, and web request.
-          - Sentiment Analysis on Amazon review specific to fashion domain and fine-tuned RoBERTa (Accuracy: 90%).
-          - Developed spam filtering models that screen non-english, not meaningful reviews with RoBERTa (Accuracy: 95%). 
-          - Extracted corpus of which best represents aspects (size, price, etc) in fashion domain using fastText, conducted post training on top of BERT architecture with Amazon reviews and implemented Aspect Based Sentiment Analysis (Accuracy: 82%)
-
+          - Deployed a Multi-Modal Device-Directed Detection module designed for back-to-back requests, with a commercial launch planned for early 2025
+          - Developed Multi-Modal Error Correction module that injects speech features into sLLM, and perform instruction tuning on N-best hypothesis to improve ASR performance
+          - Built sLLM based Neural Rescoring ASR engines that understands voice commands, resulting in a 2.85% improvement in Sentence Accuracy on real user data.. 
+          - Developed Spoken Language Understanding models that achieve superior performance in both intent classification and NER while also reducing User Perceived Latency TV content and improved baseline model by 24%
       - layout: left
         title: Review Mind
         link: https://reviewmind.modoo.at/
         sub_title: NLP Scientist
-        caption: November 2020 - Present
+        caption: November 2020 - July 2021
         description: | # this will include new lines to allow paragraphs
           - Developed various web crawling modules in Python with BeautifulSoup, Selenium, and web request.
           - Sentiment Analysis on Amazon review specific to fashion domain and fine-tuned RoBERTa (Accuracy: 90%).
